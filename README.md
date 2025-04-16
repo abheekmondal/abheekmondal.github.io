@@ -1,73 +1,125 @@
-# Welcome to your Lovable project
 
-## Project info
+# Cybersecurity Professional Portfolio
 
-**URL**: https://lovable.dev/projects/66add881-75b4-4a37-9964-bf3390f2aa20
+A modern, responsive portfolio website for cybersecurity professionals built with React, TypeScript, and Tailwind CSS. This site features a sleek dark theme with cyber-inspired design elements, smooth animations, and a user-friendly interface.
 
-## How can I edit this code?
+## Live Demo
 
-There are several ways of editing your application.
+Visit [https://cyber-folio-forge.netlify.app](https://cyber-folio-forge.netlify.app) to see the live demo.
 
-**Use Lovable**
+## Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/66add881-75b4-4a37-9964-bf3390f2aa20) and start prompting.
+- **Modern Design**: Dark-themed UI with neon accents inspired by cybersecurity aesthetics
+- **Responsive Layout**: Fully responsive design that works on all devices
+- **Animated Components**: Smooth animations and transitions for enhanced user experience
+- **Dynamic Project Gallery**: Filterable project cards with hover effects
+- **Interactive Resume**: PDF viewer with download option
+- **Contact Form**: Form with validation for user inquiries
+- **Optimized Performance**: Fast loading times and smooth interactions
 
-Changes made via Lovable will be committed automatically to this repo.
+## Tech Stack
 
-**Use your preferred IDE**
+- **Frontend**: React, TypeScript
+- **Styling**: Tailwind CSS
+- **Routing**: React Router
+- **Form Handling**: React Hook Form
+- **Validation**: Zod
+- **Icons**: Lucide React
+- **Animations**: Custom CSS animations
+- **PDF Handling**: React PDF (optional implementation)
+- **State Management**: React Query
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/cyber-folio-forge.git
+   cd cyber-folio-forge
+   ```
 
-Follow these steps:
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+4. Open [http://localhost:8080](http://localhost:8080) to view the site in your browser.
 
-# Step 3: Install the necessary dependencies.
-npm i
+## Customization Guide
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+### Updating Personal Information
+
+1. **Basic Information**: Edit the personal details in the components under `src/components/home/`
+2. **Projects**: Update the project data in `src/pages/Projects.tsx`
+3. **Resume**: Modify the resume content in `src/pages/Resume.tsx`
+4. **Contact Information**: Update your contact details in `src/pages/Contact.tsx`
+
+### Modifying the Theme
+
+1. **Colors**: The main color scheme can be adjusted in `tailwind.config.ts` under the `cyber` colors section
+2. **Typography**: Font families and sizes can be modified in `tailwind.config.ts` and `src/index.css`
+3. **Animations**: Custom animations are defined in `tailwind.config.ts` under the `keyframes` and `animation` sections
+
+### Adding New Projects
+
+To add a new project to the portfolio, add an entry to the `projects` array in `src/pages/Projects.tsx`:
+
+```typescript
+{
+  id: 'unique-id',
+  title: 'Project Name',
+  description: 'Brief project description',
+  image: '/path/to/image.jpg',
+  tags: ['Tag1', 'Tag2', 'Tag3'],
+  link: 'https://project-link.com', // Optional
+  details: 'Detailed project description' // Optional, for hover card
+}
 ```
 
-**Edit a file directly in GitHub**
+### Adding New Pages
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+1. Create a new page component in `src/pages/`
+2. Add the route to `src/App.tsx`:
+   ```typescript
+   <Route path="/new-page" element={<NewPage />} />
+   ```
+3. Update the navigation links in `src/components/layout/Navbar.tsx`
 
-**Use GitHub Codespaces**
+## Deployment
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Build for Production
 
-## What technologies are used for this project?
+```bash
+npm run build
+```
 
-This project is built with:
+This will create a `dist` folder with all the static files ready for deployment.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Deployment Options
 
-## How can I deploy this project?
+- **Netlify**: Connect your GitHub repository to Netlify for automatic deployments
+- **Vercel**: Similar to Netlify, connect your repository for CI/CD
+- **GitHub Pages**: Use GitHub Actions to deploy to GitHub Pages
+- **Traditional Hosting**: Upload the contents of the `dist` folder to any static hosting service
 
-Simply open [Lovable](https://lovable.dev/projects/66add881-75b4-4a37-9964-bf3390f2aa20) and click on Share -> Publish.
+## Contributing
 
-## Can I connect a custom domain to my Lovable project?
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-Yes, you can!
+## License
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Distributed under the MIT License. See `LICENSE` for more information.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## Acknowledgements
+
+- Design inspired by cybersecurity themes and modern portfolio websites
+- Icons provided by [Lucide React](https://lucide.dev/)
+- Sample images from [Unsplash](https://unsplash.com/)
