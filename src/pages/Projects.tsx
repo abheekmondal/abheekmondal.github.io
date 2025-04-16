@@ -66,20 +66,56 @@ const Projects = () => {
         },
         {
           id: '7',
+          title: 'Illinois Tech Hyperloop',
+          description: 'Electronics and BMS Engineer.',
+          image: 'https://images.unsplash.com/photo-1538849527685-75c9f89ce685?q=80&w=1936&auto=format&fit=crop',
+          tags: ['Battery Management System', 'Hardware', 'Hyperloop'],
+          details: 'Conducted research for battery and created a battery pack from scratch. Oversaw development of power source and BMS of controlled levitation project.'
+        },
+        {
+          id: '8',
+          title: 'Illinois Tech Robotics',
+          description: 'Electronics and Software Engineer',
+          image: 'https://plus.unsplash.com/premium_photo-1669916850011-1f7ee9bb00d1?q=80&w=1954&auto=format&fit=crop',
+          tags: ['Robotics', 'PCB', 'AI'],
+          details: 'I supervised gyro calibration and control sync for the Icarus drone, led hardware/software development of a COVID-safe delivery bot, and directed robotic vision research.'
+        },
+        {
+          id: '9',
           title: 'SmartHart',
           description: 'Hardware Lead and Cybersecurity Co-lead for wearable device.',
-          image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2034&auto=format&fit=crop',
+          image: 'https://images.unsplash.com/photo-1631130748362-156d28c00279?q=80&w=1974&auto=format&fit=crop',
           tags: ['Hardware Security', 'PCB', 'IoT'],
           details: 'Designed hardware blueprint and security infrasturcture of all sensors necessary and the custom PCB board for the watch. Decreasing malfunction risk by 20%.'
         },
         {
-          id: '8',
+          id: '10',
           title: 'Orthogonal Time Shift Modulation',
           description: 'Comprehensive analysis of OTSM for next-generation communications.',
-          image: 'https://images.unsplash.com/photo-1563089145-599997674d42?q=80&w=2070&auto=format&fit=crop',
+          image: 'https://images.unsplash.com/photo-1563580853112-17ba98a9a7b8?w=400&auto=format&fit=crop',
           tags: ['Research', 'Communications', 'Modulation'],
           details: 'Conducted an in-depth survey on Orthogonal Time Shift Modulation (OTSM) with comprehensive analysis of its theoretical foundations, performance evaluation.',
           link: 'https://github.com/abheekmondal',
+          showGithubLink: false
+        },
+        {
+          id: '11',
+          title: 'RSA Encryption',
+          description: ' Developed a complete RSA cryptosystem in Python.',
+          image: 'https://images.unsplash.com/photo-1477039181047-efb4357d01bd?q=80&w=1170&auto=format&fit=crop',
+          tags: ['Research', 'RSA Encryption', 'Cybersecurity'],
+          details: 'Created modules for prime number generation and verification using the Miller-Rabin test, and key generation using modular arithmetic and the extended Euclidean algorithm.',
+          link: 'https://github.com/abheekmondal/RSA-Implementation-Project',
+          showGithubLink: true
+        },
+        {
+          id: '12',
+          title: 'Tournament Predictor',
+          description: 'Implemented a tournament branch predictor in VHDL for Hardware security and Advanced Computer Architectiure.',
+          image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1170&auto=format&fit=crop',
+          tags: ['Research', 'VHDL', 'Hardware'],
+          details: 'Combined local and global prediction mechanisms with a selecto improve processor performance by reducing control hazards. Enhanced prediction accuracy and scalability.',
+          link: 'https://github.com/abheekmondal/TournamentPredictor',
           showGithubLink: true
         }
       ];
@@ -309,7 +345,8 @@ const Projects = () => {
                         "Wireless Network Security Protocols",
                         "Cybersecurity for Hardware Architecture",
                         "Artificial Intelligence",
-                        "Cloud Computing & Native Systems"
+                        "Cloud Computing & Native Systems",
+                        "Hardware Security and Advanced Computer Architectures"
                       ].map((course, index) => (
                         <div key={index} className="flex items-center space-x-2">
                           <span className="w-2 h-2 bg-cyber-purple rounded-full"></span>

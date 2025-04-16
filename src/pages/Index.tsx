@@ -29,7 +29,7 @@ const Index = () => {
       id: '6',
       title: 'Distributed Clock Algorithms',
       description: 'Research and implementation of novel Gossipping Time Protocol (GTP).',
-      image: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=2070&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1563580853112-17ba98a9a7b8?w=400&auto=format&fit=crop',
       tags: ['Research', 'Protocols', 'Networking'],
       details: 'Conducted an in-depth survey on Orthogonal Time Shift Modulation (OTSM) with comprehensive analysis of its theoretical foundations, performance evaluation.',
       link: 'https://github.com/abheekmondal',
