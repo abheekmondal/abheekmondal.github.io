@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ExternalLink, ChevronRight } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 
 export interface Project {
   id: string;
@@ -10,6 +10,7 @@ export interface Project {
   tags: string[];
   link?: string;
   details?: string;
+  showGithubLink?: boolean;
 }
 
 interface ProjectCardProps {
@@ -50,7 +51,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         <p className="text-gray-400 text-sm mb-4">{project.description}</p>
         
         <div className="flex justify-between items-center">
-          {project.link ? (
+          {project.link && (
             <a 
               href={project.link} 
               target="_blank" 
@@ -60,18 +61,13 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
               <ExternalLink size={16} className="mr-1" />
               <span>View Project</span>
             </a>
-          ) : (
-            <span className="text-cyber-purple text-sm flex items-center cursor-pointer">
-              <ChevronRight size={16} className="mr-1" />
-              <span>Learn More</span>
-            </span>
           )}
         </div>
       </div>
       
-      {/* Hover overlay with additional details */}
+      {/* Hover overlay with additional details - updated with more blur */}
       <div 
-        className={`absolute inset-0 bg-cyber-darker/95 p-6 flex flex-col transition-all duration-300 ease-in-out ${
+        className={`absolute inset-0 bg-cyber-darker/98 backdrop-blur-md p-6 flex flex-col transition-all duration-300 ease-in-out ${
           isHovered ? 'opacity-100' : 'opacity-0 pointer-events-none'
         }`}
       >
@@ -79,21 +75,16 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         <p className="text-gray-300 text-sm flex-grow">{project.details || project.description}</p>
         
         <div className="mt-4">
-          {project.link ? (
+          {project.link && project.showGithubLink && (
             <a 
               href={project.link} 
               target="_blank" 
               rel="noopener noreferrer"
               className="btn-cyber w-full justify-center"
             >
-              <span>View Project</span>
+              <span>View on GitHub</span>
               <ExternalLink size={16} className="ml-2" />
             </a>
-          ) : (
-            <button className="btn-cyber w-full justify-center">
-              <span>View Details</span>
-              <ChevronRight size={16} className="ml-2" />
-            </button>
           )}
         </div>
       </div>

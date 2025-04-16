@@ -7,31 +7,33 @@ import { ArrowRight } from 'lucide-react';
 import ProjectCard, { Project } from '@/components/projects/ProjectCard';
 
 const Index = () => {
-  // Sample project data - in a real app, this could come from an API or CMS
+  // Updated featured projects based on user requirements
   const featuredProjects: Project[] = [
     {
       id: '1',
-      title: 'Network Defense System',
-      description: 'Enterprise-grade intrusion detection and prevention system.',
+      title: 'ISO 27001 Implementation',
+      description: 'Lead implementer for ISO 27001 across three IPMC Ghana branches.',
       image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2034&auto=format&fit=crop',
-      tags: ['Security', 'Network', 'Enterprise'],
-      details: 'Designed and implemented a comprehensive network defense system for a financial institution, including IDS/IPS, firewall rules, and network segmentation.'
+      tags: ['ISO 27001', 'ISMS', 'Compliance'],
+      details: 'Spearheaded the implementation of ISO 27001 at IPMC Ghana across three branches. Conducted GAP analysis, created asset registries totaling over 800,000 USD, and authored 12+ ISO compliant policies, improving efficiency by 23%.'
     },
     {
-      id: '2',
-      title: 'Secure Cloud Migration',
-      description: 'Security architecture for AWS cloud infrastructure.',
-      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop',
-      tags: ['Cloud', 'AWS', 'Infrastructure'],
-      details: 'Led security aspects of a major cloud migration project, ensuring data protection and compliance throughout the transition.'
+      id: '5',
+      title: 'EcoCar EV Challenge',
+      description: 'System controls and data-driven decision-making frameworks.',
+      image: 'https://images.unsplash.com/photo-1563089145-599997674d42?q=80&w=2070&auto=format&fit=crop',
+      tags: ['Automotive', 'MathWorks', 'Simulink'],
+      details: 'Led cross-functional research teams to design system controls using CAN bus controls. Pioneered the modification of the Platinum Model using MathWorks and Simulink, boosting system performance and achieving all project KPIs.'
     },
     {
-      id: '3',
-      title: 'Vulnerability Assessment',
-      description: 'Web application penetration testing framework.',
-      image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2070&auto=format&fit=crop',
-      tags: ['Web Security', 'Pentesting', 'Tool'],
-      details: 'Developed a custom web application penetration testing framework used to identify critical vulnerabilities across multiple client systems.'
+      id: '6',
+      title: 'Distributed Clock Algorithms',
+      description: 'Research and implementation of novel Gossipping Time Protocol (GTP).',
+      image: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=2070&auto=format&fit=crop',
+      tags: ['Research', 'Protocols', 'Networking'],
+      details: 'Conducted pioneering research in distributed clock algorithms, recognizing their critical role in ensuring accurate timekeeping across networks. Implemented a novel Gossipping Time Protocol (GTP), addressing limitations of existing protocols by decentralizing clock synchronization.',
+      link: 'https://github.com/abheekmondal',
+      showGithubLink: true
     }
   ];
   

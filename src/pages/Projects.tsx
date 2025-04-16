@@ -60,7 +60,9 @@ const Projects = () => {
           description: 'Research and implementation of novel Gossipping Time Protocol (GTP).',
           image: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=2070&auto=format&fit=crop',
           tags: ['Research', 'Protocols', 'Networking'],
-          details: 'Conducted pioneering research in distributed clock algorithms, recognizing their critical role in ensuring accurate timekeeping across networks. Implemented a novel Gossipping Time Protocol (GTP), addressing limitations of existing protocols by decentralizing clock synchronization.'
+          details: 'Conducted pioneering research in distributed clock algorithms, recognizing their critical role in ensuring accurate timekeeping across networks. Implemented a novel Gossipping Time Protocol (GTP), addressing limitations of existing protocols by decentralizing clock synchronization.',
+          link: 'https://github.com/abheekmondal',
+          showGithubLink: true
         },
         {
           id: '7',
@@ -76,7 +78,9 @@ const Projects = () => {
           description: 'Comprehensive analysis of OTSM for next-generation communications.',
           image: 'https://images.unsplash.com/photo-1563089145-599997674d42?q=80&w=2070&auto=format&fit=crop',
           tags: ['Research', 'Communications', 'Modulation'],
-          details: 'Conducted an in-depth survey on Orthogonal Time Shift Modulation (OTSM) with comprehensive analysis of its theoretical foundations, performance evaluation, and practical implementation challenges. Demonstrated OTSM\'s robustness against synchronization errors.'
+          details: 'Conducted an in-depth survey on Orthogonal Time Shift Modulation (OTSM) with comprehensive analysis of its theoretical foundations, performance evaluation, and practical implementation challenges. Demonstrated OTSM\'s robustness against synchronization errors.',
+          link: 'https://github.com/abheekmondal',
+          showGithubLink: true
         }
       ];
       
