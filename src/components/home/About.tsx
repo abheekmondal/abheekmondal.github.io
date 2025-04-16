@@ -54,21 +54,21 @@ const About = () => {
                 I am a passionate cybersecurity professional with over 5 years of experience in protecting digital assets and infrastructures from evolving cyber threats. My expertise spans across vulnerability assessment, penetration testing, and security architecture.
               </p>
               <p className="text-gray-300">
-                I leverage a combination of offensive and defensive security approaches to identify vulnerabilities before they can be exploited by malicious actors. My goal is to help businesses establish robust security postures that can withstand modern cyber threats.
+                I leverage a combination of AI-Sugmented offensive and defensive security approaches to identify vulnerabilities before they can be exploited by malicious actors. My goal is to help businesses establish robust security postures that can withstand modern cyber threats.
               </p>
               
               <div className="flex items-center space-x-6 mt-6">
                 <div className="flex flex-col items-center">
-                  <span className="text-cyber-green font-bold text-3xl">50+</span>
+                  <span className="text-cyber-green font-bold text-3xl">12+</span>
                   <span className="text-gray-400 text-sm">Projects</span>
                 </div>
                 <div className="flex flex-col items-center">
-                  <span className="text-cyber-purple font-bold text-3xl">30+</span>
-                  <span className="text-gray-400 text-sm">Clients</span>
+                  <span className="text-cyber-purple font-bold text-3xl">5+</span>
+                  <span className="text-gray-400 text-sm">Years</span>
                 </div>
                 <div className="flex flex-col items-center">
-                  <span className="text-cyber-green font-bold text-3xl">5+</span>
-                  <span className="text-gray-400 text-sm">Years</span>
+                  <span className="text-cyber-green font-bold text-3xl">80+</span>
+                  <span className="text-gray-400 text-sm">All-nighters</span>
                 </div>
               </div>
             </div>

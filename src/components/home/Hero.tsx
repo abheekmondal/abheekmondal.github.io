@@ -57,12 +57,12 @@ const Hero = () => {
           <div className="md:col-span-3 space-y-6">
             <div className={`transition-all duration-1000 transform ${isVisible ? 'opacity-100' : 'opacity-0 translate-y-10'}`}>
               <h1 className="font-tech font-bold text-4xl sm:text-5xl md:text-6xl leading-tight">
-                <span className="text-white block">Secure Your Digital</span>
-                <span className="text-glow block mt-2">Frontier</span>
+                <span className="text-white block">Abheek Mondal</span>
+                <span className="text-glow block mt-2">Masters in Computer Systems and Software, specializing in Cybersecurity</span>
               </h1>
               
               <p className="mt-6 text-lg text-gray-300 max-w-2xl">
-                Cybersecurity professional specializing in penetration testing, vulnerability assessment, and security architecture. Protecting your digital assets with cutting-edge defense strategies.
+                Cybersecurity professional specializing in penetration testing, vulnerability assessment, and security architecture. Protecting your digital assets with cutting-edge defense strategies. WIth a passion in all things tech.
               </p>
               
               <div className="mt-8 flex flex-wrap gap-4">
