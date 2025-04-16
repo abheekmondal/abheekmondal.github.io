@@ -44,7 +44,7 @@ const Footer = () => {
                 className="text-gray-400 hover:text-cyber-purple transition-colors"
                 aria-label="Instagram Profile"
               >
-                <Twitter size={20} />
+                <Instagram size={20} />
               </a>
               <a 
                 href="mailto:abheekmondal@gmail.com" 
