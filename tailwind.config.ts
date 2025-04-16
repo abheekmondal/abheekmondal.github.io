@@ -54,12 +54,12 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				cyber: {
-					green: '#00ff41',
 					purple: '#9b30ff',
+					green: '#00ff41',
 					dark: '#0d0d12',
 					darker: '#090912',
 					matrix: '#003B00',
-					glow: '#00ff4133'
+					glow: '#9b30ff33'
 				}
 			},
 			borderRadius: {
@@ -77,8 +77,8 @@ export default {
 					to: { height: '0' }
 				},
 				'pulse-glow': {
-					'0%, 100%': { boxShadow: '0 0 8px 2px var(--glow-color, #00ff4133)' },
-					'50%': { boxShadow: '0 0 18px 4px var(--glow-color, #00ff4133)' }
+					'0%, 100%': { boxShadow: '0 0 8px 2px var(--glow-color, #9b30ff33)' },
+					'50%': { boxShadow: '0 0 18px 4px var(--glow-color, #9b30ff33)' }
 				},
 				'text-blink': {
 					'0%, 100%': { opacity: '1' },
@@ -123,9 +123,9 @@ export default {
 				tech: ['Orbitron', 'Rajdhani', 'sans-serif'],
 			},
 			backgroundImage: {
-				'cyber-grid': 'radial-gradient(#00ff41 1px, transparent 1px)',
+				'cyber-grid': 'radial-gradient(#9b30ff 1px, transparent 1px)',
 				'matrix': 'linear-gradient(180deg, rgba(0,59,0,0.15) 0%, rgba(0,59,0,0.3) 100%)',
-				'hero-glow': 'radial-gradient(circle at 50% 50%, rgba(0, 255, 65, 0.1), transparent 60%)',
+				'hero-glow': 'radial-gradient(circle at 50% 50%, rgba(155, 48, 255, 0.1), transparent 60%)',
 			}
 		}
 	},

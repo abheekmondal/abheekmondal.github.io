@@ -39,7 +39,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           {project.tags.map((tag, index) => (
             <span 
               key={index} 
-              className="px-2 py-1 bg-cyber-green/10 text-cyber-green text-xs rounded-md"
+              className="px-2 py-1 bg-cyber-purple/10 text-cyber-purple text-xs rounded-md"
             >
               {tag}
             </span>
@@ -55,13 +55,13 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
               href={project.link} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-cyber-green hover:text-cyber-green/80 text-sm flex items-center transition-colors"
+              className="text-cyber-purple hover:text-cyber-purple/80 text-sm flex items-center transition-colors"
             >
               <ExternalLink size={16} className="mr-1" />
               <span>View Project</span>
             </a>
           ) : (
-            <span className="text-cyber-green text-sm flex items-center cursor-pointer">
+            <span className="text-cyber-purple text-sm flex items-center cursor-pointer">
               <ChevronRight size={16} className="mr-1" />
               <span>Learn More</span>
             </span>
