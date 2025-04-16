@@ -42,15 +42,15 @@ const PDFViewer: React.FC<PDFViewerProps> = ({ pdfUrl }) => {
   
   return (
     <div className="flex flex-col h-full">
-      <div className="bg-cyber-darker p-4 rounded-t-lg border-b border-cyber-green/20 flex items-center justify-between">
+      <div className="bg-cyber-darker p-4 rounded-t-lg border-b border-cyber-purple/20 flex items-center justify-between">
         <div className="flex items-center space-x-4">
           <button
             onClick={handlePrevPage}
             disabled={currentPage === 1}
-            className="p-2 rounded-md hover:bg-cyber-green/10 disabled:opacity-50 disabled:cursor-not-allowed"
+            className="p-2 rounded-md hover:bg-cyber-purple/10 disabled:opacity-50 disabled:cursor-not-allowed"
             aria-label="Previous page"
           >
-            <ChevronLeft size={20} className="text-cyber-green" />
+            <ChevronLeft size={20} className="text-cyber-purple" />
           </button>
           
           <span className="text-gray-300">
@@ -60,30 +60,30 @@ const PDFViewer: React.FC<PDFViewerProps> = ({ pdfUrl }) => {
           <button
             onClick={handleNextPage}
             disabled={currentPage === numPages}
-            className="p-2 rounded-md hover:bg-cyber-green/10 disabled:opacity-50 disabled:cursor-not-allowed"
+            className="p-2 rounded-md hover:bg-cyber-purple/10 disabled:opacity-50 disabled:cursor-not-allowed"
             aria-label="Next page"
           >
-            <ChevronRight size={20} className="text-cyber-green" />
+            <ChevronRight size={20} className="text-cyber-purple" />
           </button>
         </div>
         
         <div className="flex items-center space-x-4">
           <button
             onClick={handleZoomOut}
-            className="p-2 rounded-md hover:bg-cyber-green/10"
+            className="p-2 rounded-md hover:bg-cyber-purple/10"
             aria-label="Zoom out"
           >
-            <ZoomOut size={20} className="text-cyber-green" />
+            <ZoomOut size={20} className="text-cyber-purple" />
           </button>
           
           <span className="text-gray-300">{Math.round(scale * 100)}%</span>
           
           <button
             onClick={handleZoomIn}
-            className="p-2 rounded-md hover:bg-cyber-green/10"
+            className="p-2 rounded-md hover:bg-cyber-purple/10"
             aria-label="Zoom in"
           >
-            <ZoomIn size={20} className="text-cyber-green" />
+            <ZoomIn size={20} className="text-cyber-purple" />
           </button>
           
           <button

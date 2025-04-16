@@ -55,10 +55,10 @@ export default {
 				},
 				cyber: {
 					purple: '#9b30ff',
-					green: '#00ff41',
+					green: '#9b30ff', // Changed to match the purple color
 					dark: '#0d0d12',
 					darker: '#090912',
-					matrix: '#003B00',
+					matrix: '#3b0066', // Changed to purple-based matrix color
 					glow: '#9b30ff33'
 				}
 			},

@@ -1,77 +1,143 @@
 
 import React from 'react';
 import PDFViewer from '@/components/resume/PDFViewer';
-import { Download, FileText, Award, Briefcase, GraduationCap } from 'lucide-react';
+import { Download, FileText, Award, Briefcase, GraduationCap, Code, Shield } from 'lucide-react';
 
 const Resume = () => {
   // We'd use a real PDF URL in production
   const resumePdfUrl = '/sample-resume.pdf';
   
-  // Sample resume data - in a real app, this might come from CMS or API
+  // Resume data based on Abheek's experience
   const resumeData = {
     experience: [
       {
-        title: "Senior Security Consultant",
-        company: "CyberDefend Solutions",
-        period: "2021 - Present",
-        description: "Lead security assessments, penetration testing, and security architecture reviews for enterprise clients. Develop custom security solutions and provide strategic security guidance.",
+        title: "ISO 27001 Lead Implementer",
+        company: "IPMC Ghana",
+        period: "2024 - Present",
+        description: "Leading ISO 27001 implementation across multiple branches, conducting security assessments, and implementing cybersecurity protocols.",
         achievements: [
-          "Implemented zero-trust architecture for a Fortune 500 company",
-          "Reduced security incidents by 70% through enhanced monitoring",
-          "Developed custom threat detection algorithms"
+          "Spearheaded ISO 27001 implementation across three branches",
+          "Created critical asset registries totaling over $800,000",
+          "Authored 12+ ISO compliant policies, improving efficiency by 23%",
+          "Developed detailed Cybersecurity Incident Response Plans"
         ]
       },
       {
-        title: "Cybersecurity Analyst",
-        company: "SecureNet Inc.",
-        period: "2018 - 2021",
-        description: "Conducted vulnerability assessments, security audits, and incident response. Developed and implemented security policies and procedures.",
+        title: "WebApp Pentester",
+        company: "IPMC Ghana",
+        period: "2024 - Present",
+        description: "Conducted penetration testing on web applications using comprehensive tools and collaborated with development teams to implement security enhancements.",
         achievements: [
-          "Led SOC team during major ransomware incident recovery",
-          "Implemented SIEM solution reducing detection time by 60%",
-          "Authored company-wide security training program"
+          "Developed detailed Pentesting manual using OWASP ZAP, SQL injection, and XSS",
+          "Identified 40+ vulnerabilities including 12+ critical issues",
+          "Created detailed vulnerability reports with risk assessment",
+          "Reduced overall risk exposure by 25%"
         ]
       },
       {
-        title: "Network Security Engineer",
-        company: "TechGuard Systems",
-        period: "2016 - 2018",
-        description: "Designed and implemented secure network infrastructures, firewalls, and VPNs. Conducted regular security assessments and audits.",
+        title: "Cybersecurity Solutions Architect",
+        company: "IPMC Ghana",
+        period: "2024 - Present",
+        description: "Developed strategic cybersecurity initiatives and conducted in-depth analyses of client infrastructure to identify security weaknesses.",
         achievements: [
-          "Redesigned network security architecture",
-          "Implemented IDS/IPS systems across multiple datacenters",
-          "Created automated vulnerability scanning framework"
+          "Collaborated with CEO on strategic cybersecurity initiatives",
+          "Leveraged server logs to detect anomalous IPs, improving server performance by 10%",
+          "Authored ISO 27001-compliant incident reports",
+          "Enhanced cybersecurity protocols, reducing vulnerability by 30%"
+        ]
+      },
+      {
+        title: "Webmaster (Full-Stack Developer)",
+        company: "ESports Trade Association",
+        period: "2022",
+        description: "Managed ESTA's website, ensuring high uptime and improved operational efficiency through custom WordPress development.",
+        achievements: [
+          "Managed website with 90% uptime and 25% improvement in operational efficiency",
+          "Increased site traffic by 20% through 32 custom WordPress pages",
+          "Improved website speed and responsiveness by 30%",
+          "Enhanced cross-platform functionality, boosting user experience by 15%"
         ]
       }
     ],
     education: [
       {
-        degree: "Master of Science in Cybersecurity",
-        institution: "Tech University",
-        year: "2016",
-        details: "Specialized in Advanced Threat Detection and Incident Response"
+        degree: "Master of Science, Computer Systems and Software Specialization in Cybersecurity",
+        institution: "Illinois Institute of Technology",
+        year: "2023",
+        details: "GPA: 3.65, Magna Cum Laude",
+        courses: [
+          "Application Software Design",
+          "Wireless Network Protocols",
+          "Cloud Computing & Native Systems",
+          "Embedded Systems and Software",
+          "Security protocols",
+          "Encryption Algorithms and Cryptography",
+          "Intro to Artificial Intelligence"
+        ]
       },
       {
-        degree: "Bachelor of Science in Computer Science",
-        institution: "State University",
-        year: "2014",
-        details: "Focus on Network Security and Cryptography"
+        degree: "Bachelor of Science, Computer Engineering",
+        institution: "Illinois Institute of Technology",
+        year: "2020-2023",
+        details: "IIT Dean's Honor List (2020-2023)"
       }
     ],
     skills: [
-      "Penetration Testing",
-      "Vulnerability Assessment",
-      "Security Architecture",
-      "Incident Response",
-      "Cloud Security",
-      "Network Defense",
-      "SIEM Implementation",
-      "Risk Assessment",
-      "Threat Modeling",
-      "Security Compliance",
-      "Cryptography",
+      "Java",
       "Python",
-      "Bash Scripting"
+      "HTML/CSS",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "GoLang",
+      "MySQL",
+      "Azure",
+      "Apache",
+      "GitHub",
+      "WordPress",
+      "Linux",
+      "Windows Server",
+      "OSWAP",
+      "Metasploit",
+      "Wireshark",
+      "BurpSuite",
+      "Agile Development",
+      "Scrum Master"
+    ],
+    certifications: [
+      "PECB ISO/IEC 27001: ISMS Lead Implementer 2025",
+      "Problem Solving (Intermediate): Hackerrank Certification",
+      "SQL (Advanced): Hackerrank Certification",
+      "GO: Hackerrank Certification",
+      "Python: Hackerrank Certification",
+      "IEEE - HKN: IEEE Honor Society",
+      "Order of Engineering: Order of Engineering Honor Society"
+    ],
+    projects: [
+      {
+        name: "WhatsRoute",
+        role: "Lead Software Developer and Engineer",
+        year: "2024",
+        description: "Developed technical architecture for a restaurant ordering system integrated with WhatsApp Business API."
+      },
+      {
+        name: "RND4IMPACT Inc.",
+        role: "Data Analyst",
+        year: "2024",
+        description: "Conducted in-depth analysis of business sales data using Python, GraphQL, and Lambda."
+      },
+      {
+        name: "EcoCar EV Challenge",
+        role: "Team Lead",
+        year: "2022-2023",
+        description: "Led cross-functional research teams to design system controls using CAN bus controls."
+      },
+      {
+        name: "Research on Distributed Clock Algorithms",
+        role: "Researcher",
+        year: "2023",
+        description: "Implemented a novel Gossipping Time Protocol (GTP) addressing limitations of existing protocols."
+      }
     ]
   };
   
@@ -94,7 +160,7 @@ const Resume = () => {
             
             <a 
               href="/sample-resume.pdf" 
-              download="Cybersecurity_Resume.pdf"
+              download="Abheek_Mondal_Resume.pdf"
               className="btn-cyber flex items-center w-fit"
             >
               <Download size={18} className="mr-2" />
@@ -120,7 +186,7 @@ const Resume = () => {
             {/* Experience Column */}
             <div className="lg:col-span-2">
               <div className="flex items-center mb-6">
-                <Briefcase size={24} className="text-cyber-green mr-3" />
+                <Briefcase size={24} className="text-cyber-purple mr-3" />
                 <h2 className="font-tech text-2xl font-bold text-white">Professional Experience</h2>
               </div>
               
@@ -129,11 +195,11 @@ const Resume = () => {
                   <div key={index} className="card-cyber p-6">
                     <div className="flex justify-between items-start mb-2">
                       <h3 className="font-tech text-xl font-semibold text-white">{job.title}</h3>
-                      <span className="bg-cyber-green/10 text-cyber-green text-xs px-2 py-1 rounded-md whitespace-nowrap">
+                      <span className="bg-cyber-purple/10 text-cyber-purple text-xs px-2 py-1 rounded-md whitespace-nowrap">
                         {job.period}
                       </span>
                     </div>
-                    <div className="text-cyber-green font-medium mb-4">{job.company}</div>
+                    <div className="text-cyber-purple font-medium mb-4">{job.company}</div>
                     <p className="text-gray-300 mb-4">{job.description}</p>
                     <h4 className="text-white font-medium mb-2">Key Achievements:</h4>
                     <ul className="list-disc list-inside text-gray-300 space-y-1">
@@ -146,7 +212,27 @@ const Resume = () => {
               </div>
               
               <div className="flex items-center mb-6 mt-12">
-                <GraduationCap size={24} className="text-cyber-green mr-3" />
+                <Code size={24} className="text-cyber-purple mr-3" />
+                <h2 className="font-tech text-2xl font-bold text-white">Projects</h2>
+              </div>
+              
+              <div className="space-y-6">
+                {resumeData.projects.map((project, index) => (
+                  <div key={index} className="card-cyber p-6">
+                    <div className="flex justify-between items-start mb-2">
+                      <h3 className="font-tech text-xl font-semibold text-white">{project.name}</h3>
+                      <span className="bg-cyber-purple/10 text-cyber-purple text-xs px-2 py-1 rounded-md">
+                        {project.year}
+                      </span>
+                    </div>
+                    <div className="text-cyber-purple font-medium mb-2">{project.role}</div>
+                    <p className="text-gray-300">{project.description}</p>
+                  </div>
+                ))}
+              </div>
+              
+              <div className="flex items-center mb-6 mt-12">
+                <GraduationCap size={24} className="text-cyber-purple mr-3" />
                 <h2 className="font-tech text-2xl font-bold text-white">Education</h2>
               </div>
               
@@ -155,12 +241,27 @@ const Resume = () => {
                   <div key={index} className="card-cyber p-6">
                     <div className="flex justify-between items-start mb-2">
                       <h3 className="font-tech text-xl font-semibold text-white">{edu.degree}</h3>
-                      <span className="bg-cyber-green/10 text-cyber-green text-xs px-2 py-1 rounded-md">
+                      <span className="bg-cyber-purple/10 text-cyber-purple text-xs px-2 py-1 rounded-md">
                         {edu.year}
                       </span>
                     </div>
-                    <div className="text-cyber-green font-medium mb-2">{edu.institution}</div>
-                    <p className="text-gray-300">{edu.details}</p>
+                    <div className="text-cyber-purple font-medium mb-2">{edu.institution}</div>
+                    <p className="text-gray-300 mb-2">{edu.details}</p>
+                    {edu.courses && (
+                      <div>
+                        <h4 className="text-white font-medium mb-2">Relevant Courses:</h4>
+                        <div className="flex flex-wrap gap-2">
+                          {edu.courses.map((course, i) => (
+                            <span 
+                              key={i}
+                              className="px-2 py-1 bg-cyber-purple/10 text-cyber-purple text-xs rounded-md"
+                            >
+                              {course}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    )}
                   </div>
                 ))}
               </div>
@@ -169,7 +270,7 @@ const Resume = () => {
             {/* Skills Column */}
             <div>
               <div className="flex items-center mb-6">
-                <Award size={24} className="text-cyber-green mr-3" />
+                <Award size={24} className="text-cyber-purple mr-3" />
                 <h2 className="font-tech text-2xl font-bold text-white">Skills & Expertise</h2>
               </div>
               
@@ -178,7 +279,7 @@ const Resume = () => {
                   {resumeData.skills.map((skill, index) => (
                     <span 
                       key={index}
-                      className="px-3 py-2 bg-cyber-green/10 text-cyber-green text-sm rounded-md"
+                      className="px-3 py-2 bg-cyber-purple/10 text-cyber-purple text-sm rounded-md"
                     >
                       {skill}
                     </span>
@@ -187,22 +288,15 @@ const Resume = () => {
               </div>
               
               <div className="flex items-center mb-6 mt-12">
-                <FileText size={24} className="text-cyber-green mr-3" />
+                <Shield size={24} className="text-cyber-purple mr-3" />
                 <h2 className="font-tech text-2xl font-bold text-white">Certifications</h2>
               </div>
               
               <div className="card-cyber p-6">
                 <ul className="space-y-4">
-                  {[
-                    "Certified Ethical Hacker (CEH)",
-                    "Certified Information Systems Security Professional (CISSP)",
-                    "Offensive Security Certified Professional (OSCP)",
-                    "CompTIA Security+",
-                    "AWS Certified Security - Specialty",
-                    "Certified Cloud Security Professional (CCSP)"
-                  ].map((cert, index) => (
+                  {resumeData.certifications.map((cert, index) => (
                     <li key={index} className="flex items-center">
-                      <span className="w-2 h-2 bg-cyber-green rounded-full mr-3"></span>
+                      <span className="w-2 h-2 bg-cyber-purple rounded-full mr-3"></span>
                       <span className="text-gray-300">{cert}</span>
                     </li>
                   ))}

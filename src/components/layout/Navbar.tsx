@@ -37,7 +37,7 @@ const Navbar = () => {
       <div className="cyber-container flex items-center justify-between">
         <Link to="/" className="group flex items-center space-x-2">
           <span className="font-tech font-bold text-xl sm:text-2xl text-white">
-            <span className="text-cyber-green animate-pulse-glow">Cyber</span>Security
+            <span className="text-cyber-purple animate-pulse-glow">Abheek</span> Mondal
           </span>
         </Link>
         
@@ -47,9 +47,9 @@ const Navbar = () => {
             <Link
               key={link.path}
               to={link.path}
-              className={`flex items-center space-x-1 text-sm font-medium transition-all hover:text-cyber-green ${
+              className={`flex items-center space-x-1 text-sm font-medium transition-all hover:text-cyber-purple ${
                 location.pathname === link.path 
-                  ? 'text-cyber-green border-b-2 border-cyber-green' 
+                  ? 'text-cyber-purple border-b-2 border-cyber-purple' 
                   : 'text-gray-300'
               }`}
             >
@@ -61,7 +61,7 @@ const Navbar = () => {
         
         {/* Mobile menu button */}
         <button
-          className="md:hidden text-gray-300 hover:text-cyber-green"
+          className="md:hidden text-gray-300 hover:text-cyber-purple"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -70,7 +70,7 @@ const Navbar = () => {
       
       {/* Mobile navigation */}
       {isMenuOpen && (
-        <div className="md:hidden absolute top-full left-0 w-full bg-cyber-darker/95 backdrop-blur-md shadow-lg py-3 border-t border-cyber-green/20 animate-fade-in">
+        <div className="md:hidden absolute top-full left-0 w-full bg-cyber-darker/95 backdrop-blur-md shadow-lg py-3 border-t border-cyber-purple/20 animate-fade-in">
           <div className="cyber-container flex flex-col space-y-3">
             {navLinks.map((link) => (
               <Link
@@ -78,8 +78,8 @@ const Navbar = () => {
                 to={link.path}
                 className={`flex items-center space-x-3 p-2 rounded-md ${
                   location.pathname === link.path
-                    ? 'text-cyber-green bg-cyber-green/10'
-                    : 'text-gray-300 hover:bg-cyber-green/5 hover:text-cyber-green'
+                    ? 'text-cyber-purple bg-cyber-purple/10'
+                    : 'text-gray-300 hover:bg-cyber-purple/5 hover:text-cyber-purple'
                 }`}
               >
                 {link.icon}
