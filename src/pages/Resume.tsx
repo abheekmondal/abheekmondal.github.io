@@ -5,7 +5,7 @@ import { Download, FileText, Award, Briefcase, GraduationCap, Code, Shield } fro
 
 const Resume = () => {
   // We'd use a real PDF URL in production
-  const resumePdfUrl = '/sample-resume.pdf';
+  const resumePdfUrl = '/Cybersecurity-Engineer-Abheek-Mondal-ISO270001-Certified.pdf';
   
   // Resume data based on Abheek's experience
   const resumeData = {
