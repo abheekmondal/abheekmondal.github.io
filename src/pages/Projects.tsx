@@ -24,19 +24,19 @@ const Projects = () => {
         },
         {
           id: '2',
-          title: 'WhatsRoute',
-          description: 'Lead Software Developer for restaurant ordering system with WhatsApp integration.',
-          image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2070&auto=format&fit=crop',
-          tags: ['Development', 'Agile', 'API'],
-          details: 'Developed technical architecture design for a restaurant ordering system integrated with the WhatsApp Business API. Orchestrated project timelines using Agile methodologies and led a cross-functional team for backend and system integration development.'
-        },
-        {
-          id: '3',
           title: 'Web Application Pentesting',
           description: 'Comprehensive security assessment and vulnerability remediation.',
           image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop',
           tags: ['Security', 'Pentesting', 'OWASP'],
           details: 'Developed a detailed Pentesting manual using comprehensive tools such as OWASP ZAP, SQL injection, XSS. Identified 40+ vulnerabilities including 12+ critical issues, contributing to a 25% reduction in overall risk exposure.'
+        },
+        {
+          id: '3',
+          title: 'WhatsRoute',
+          description: 'Lead Software Developer for restaurant ordering system with WhatsApp integration.',
+          image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2070&auto=format&fit=crop',
+          tags: ['Development', 'Agile', 'API'],
+          details: 'Developed technical architecture design for a restaurant ordering system integrated with the WhatsApp Business API. Orchestrated project timelines using Agile methodologies and led a cross-functional team for backend and system integration development.'
         },
         {
           id: '4',
@@ -69,7 +69,7 @@ const Projects = () => {
           title: 'SmartHart',
           description: 'Hardware Lead and Cybersecurity Co-lead for wearable device.',
           image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2034&auto=format&fit=crop',
-          tags: ['Hardware', 'PCB', 'IoT'],
+          tags: ['Hardware Security', 'PCB', 'IoT'],
           details: 'Designed hardware blueprint of all sensors necessary and the custom PCB board for the watch. Successfully implemented a voltage regulator to ensure consistent output, decreasing malfunction risk by 20%. Spearheaded the integration of sensor arrays and LED systems.'
         },
         {
@@ -184,10 +184,10 @@ const Projects = () => {
                 icon: "🔒"
               },
               {
-                name: "Problem Solving (Intermediate)",
-                issuer: "Hackerrank",
-                date: "2023",
-                icon: "🧩"
+                name: "C|EH + C|EH Practical",
+                issuer: "EC Council",
+                date: "In Progress",
+                icon: "⚔️"                
               },
               {
                 name: "SQL (Advanced)",
@@ -208,10 +208,10 @@ const Projects = () => {
                 icon: "🐍"
               },
               {
-                name: "C|EH + C|EH Practical",
-                issuer: "EC Council",
+                name: "Problem Solving (Intermediate)",
+                issuer: "Hackerrank",
                 date: "2023",
-                icon: "⚔️"
+                icon: "🧩"
               }
             ].map((cert, index) => (
               <div key={index} className="card-cyber p-6 flex flex-col h-full">
@@ -285,7 +285,7 @@ const Projects = () => {
                   <div>
                     <div className="flex justify-between items-start mb-2">
                       <h4 className="text-lg font-medium text-white">Illinois Institute of Technology</h4>
-                      <span className="bg-cyber-purple/10 text-cyber-purple text-xs px-2 py-1 rounded-md">2023</span>
+                      <span className="bg-cyber-purple/10 text-cyber-purple text-xs px-2 py-1 rounded-md">Dec 2023</span>
                     </div>
                     <p className="text-sm text-cyber-purple font-medium">Master of Science, Computer Systems and Software</p>
                     <p className="text-xs text-gray-400">Specialization in Cybersecurity</p>
@@ -295,7 +295,7 @@ const Projects = () => {
                   <div>
                     <div className="flex justify-between items-start mb-2">
                       <h4 className="text-lg font-medium text-white">Illinois Institute of Technology</h4>
-                      <span className="bg-cyber-purple/10 text-cyber-purple text-xs px-2 py-1 rounded-md">2023</span>
+                      <span className="bg-cyber-purple/10 text-cyber-purple text-xs px-2 py-1 rounded-md">2022</span>
                     </div>
                     <p className="text-sm text-cyber-purple font-medium">Bachelor of Science, Computer Engineering</p>
                     <p className="text-xs text-gray-400 mt-1">IIT Dean's Honor List (2020-2023)</p>
