@@ -77,9 +77,9 @@ const Hero = () => {
               <div className="mt-8 flex items-center">
                 <div className="flex -space-x-2">
                   {/* Certification badges or client logos could go here */}
-                  <div className="w-10 h-10 rounded-full bg-cyber-green/20 text-cyber-green flex items-center justify-center text-xs font-bold">CEH</div>
-                  <div className="w-10 h-10 rounded-full bg-cyber-purple/20 text-cyber-purple flex items-center justify-center text-xs font-bold">CISSP</div>
-                  <div className="w-10 h-10 rounded-full bg-cyber-green/20 text-cyber-green flex items-center justify-center text-xs font-bold">OSCP</div>
+                  <div className="w-10 h-10 rounded-full bg-cyber-green/20 text-cyber-green flex items-center justify-center text-xs font-bold"></div>
+                  <div className="w-10 h-10 rounded-full bg-cyber-purple/20 text-cyber-purple flex items-center justify-center text-xs font-bold"></div>
+                  <div className="w-10 h-10 rounded-full bg-cyber-green/20 text-cyber-green flex items-center justify-center text-xs font-bold"></div>
                 </div>
                 <span className="ml-4 text-sm text-gray-400">Certified Security Professional</span>
               </div>
