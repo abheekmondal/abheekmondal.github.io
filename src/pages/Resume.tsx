@@ -175,8 +175,8 @@ const Resume = () => {
             </div>
             
             <a 
-              href="/sample-resume.pdf" 
-              download="Abheek_Mondal_Resume.pdf"
+              href="/Cybersecurity-Engineer-Abheek-Mondal-ISO270001-Certified.pdf" 
+              download="Cybersecurity-Engineer-Abheek-Mondal-ISO270001-Certified.pdf"
               className="btn-cyber flex items-center w-fit"
             >
               <Download size={18} className="mr-2" />
