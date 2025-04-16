@@ -61,7 +61,7 @@ const Projects = () => {
           image: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=2070&auto=format&fit=crop',
           tags: ['Research', 'Protocols', 'Networking'],
           details: 'Conducted pioneering research in distributed clock algorithms, recognizing their critical role in ensuring accurate timekeeping across networks. Implemented a novel Gossipping Time Protocol (GTP), addressing limitations of existing protocols by decentralizing clock synchronization.',
-          link: 'https://github.com/abheekmondal',
+          link: 'https://github.com/abheekmondal/Gossiping-Time-Protocol-Implementation',
           showGithubLink: true
         },
         {
