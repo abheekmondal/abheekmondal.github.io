@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Github, Linkedin, Twitter, Mail } from 'lucide-react';
+import { Github, Linkedin, Instagram, Mail } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -38,11 +38,11 @@ const Footer = () => {
                 <Linkedin size={20} />
               </a>
               <a 
-                href="https://twitter.com" 
+                href="https://www.instagram.com/mondalabheek/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-cyber-purple transition-colors"
-                aria-label="Twitter Profile"
+                aria-label="Instagram Profile"
               >
                 <Twitter size={20} />
               </a>

@@ -15,7 +15,7 @@ const Index = () => {
       description: 'Lead implementer for ISO 27001 across three IPMC Ghana branches.',
       image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2034&auto=format&fit=crop',
       tags: ['ISO 27001', 'ISMS', 'Compliance'],
-      details: 'Spearheaded the implementation of ISO 27001 at IPMC Ghana across three branches. Conducted GAP analysis, created asset registries totaling over 800,000 USD, and authored 12+ ISO compliant policies, improving efficiency by 23%.'
+      details: 'Spearheaded the implementation of ISO 27001 at IPMC Ghana across three branches. Conducted GAP analysis, created asset registries totaling over 800,000 USD.'
     },
     {
       id: '5',
@@ -23,7 +23,7 @@ const Index = () => {
       description: 'System controls and data-driven decision-making frameworks.',
       image: 'https://images.unsplash.com/photo-1563089145-599997674d42?q=80&w=2070&auto=format&fit=crop',
       tags: ['Automotive', 'MathWorks', 'Simulink'],
-      details: 'Led cross-functional research teams to design system controls using CAN bus controls. Pioneered the modification of the Platinum Model using MathWorks and Simulink, boosting system performance and achieving all project KPIs.'
+      details: 'Led cross-functional research teams to design system controls using CAN bus controls. Pioneered the modification of the Platinum Model using MathWorks and Simulink.'
     },
     {
       id: '6',
@@ -31,7 +31,7 @@ const Index = () => {
       description: 'Research and implementation of novel Gossipping Time Protocol (GTP).',
       image: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=2070&auto=format&fit=crop',
       tags: ['Research', 'Protocols', 'Networking'],
-      details: 'Conducted pioneering research in distributed clock algorithms, recognizing their critical role in ensuring accurate timekeeping across networks. Implemented a novel Gossipping Time Protocol (GTP), addressing limitations of existing protocols by decentralizing clock synchronization.',
+      details: 'Conducted an in-depth survey on Orthogonal Time Shift Modulation (OTSM) with comprehensive analysis of its theoretical foundations, performance evaluation.',
       link: 'https://github.com/abheekmondal',
       showGithubLink: true
     }

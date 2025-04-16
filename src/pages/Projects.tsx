@@ -20,7 +20,7 @@ const Projects = () => {
           description: 'Lead implementer for ISO 27001 across three IPMC Ghana branches.',
           image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2034&auto=format&fit=crop',
           tags: ['ISO 27001', 'ISMS', 'Compliance'],
-          details: 'Spearheaded the implementation of ISO 27001 at IPMC Ghana across three branches. Conducted GAP analysis, created asset registries totaling over 800,000 USD, and authored 12+ ISO compliant policies, improving efficiency by 23%.'
+          details: 'Spearheaded the implementation of ISO 27001 at IPMC Ghana across three branches. Conducted GAP analysis, created asset registries totaling over 800,000 USD.'
         },
         {
           id: '2',
@@ -28,7 +28,7 @@ const Projects = () => {
           description: 'Comprehensive security assessment and vulnerability remediation.',
           image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop',
           tags: ['Security', 'Pentesting', 'OWASP'],
-          details: 'Developed a detailed Pentesting manual using comprehensive tools such as OWASP ZAP, SQL injection, XSS. Identified 40+ vulnerabilities including 12+ critical issues, contributing to a 25% reduction in overall risk exposure.'
+          details: 'Developed a detailed Pentesting manual using comprehensive tools such as OWASP ZAP, SQL injection, XSS. Contributing to a 25% reduction in overall risk exposure.'
         },
         {
           id: '3',
@@ -36,7 +36,7 @@ const Projects = () => {
           description: 'Lead Software Developer for restaurant ordering system with WhatsApp integration.',
           image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2070&auto=format&fit=crop',
           tags: ['Development', 'Agile', 'API'],
-          details: 'Developed technical architecture design for a restaurant ordering system integrated with the WhatsApp Business API. Orchestrated project timelines using Agile methodologies and led a cross-functional team for backend and system integration development.'
+          details: 'Developed technical architecture design for a restaurant ordering system integrated with the WhatsApp Business API. Led a cross-functional team for backend and system integration development.'
         },
         {
           id: '4',
@@ -44,7 +44,7 @@ const Projects = () => {
           description: 'Business data analysis using Python, GraphQL, and Lambda.',
           image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop',
           tags: ['Data Analysis', 'Python', 'GraphQL'],
-          details: 'Conducted in-depth analysis of business sales data using Python, GraphQL, and Lambda, identifying key insights and potential fraud patterns. Performed trend analysis and regression techniques to deliver actionable insights that optimized marketing efforts.'
+          details: 'Conducted in-depth analysis of business sales data using Python, GraphQL, and Lambda, identifying key insights and potential fraud patterns. Delivered actionable insights that optimized marketing efforts.'
         },
         {
           id: '5',
@@ -52,7 +52,7 @@ const Projects = () => {
           description: 'System controls and data-driven decision-making frameworks.',
           image: 'https://images.unsplash.com/photo-1563089145-599997674d42?q=80&w=2070&auto=format&fit=crop',
           tags: ['Automotive', 'MathWorks', 'Simulink'],
-          details: 'Led cross-functional research teams to design system controls using CAN bus controls. Pioneered the modification of the Platinum Model using MathWorks and Simulink, boosting system performance and achieving all project KPIs.'
+          details: 'Led cross-functional research teams to design system controls using CAN bus controls. Pioneered the modification of the Platinum Model using MathWorks and Simulink.'
         },
         {
           id: '6',
@@ -60,7 +60,7 @@ const Projects = () => {
           description: 'Research and implementation of novel Gossipping Time Protocol (GTP).',
           image: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=2070&auto=format&fit=crop',
           tags: ['Research', 'Protocols', 'Networking'],
-          details: 'Conducted pioneering research in distributed clock algorithms, recognizing their critical role in ensuring accurate timekeeping across networks. Implemented a novel Gossipping Time Protocol (GTP), addressing limitations of existing protocols by decentralizing clock synchronization.',
+          details: 'Conducted pioneering research in distributed clock algorithms, recognizing their critical role in ensuring accurate timekeeping across networks.',
           link: 'https://github.com/abheekmondal/Gossiping-Time-Protocol-Implementation',
           showGithubLink: true
         },
@@ -70,7 +70,7 @@ const Projects = () => {
           description: 'Hardware Lead and Cybersecurity Co-lead for wearable device.',
           image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2034&auto=format&fit=crop',
           tags: ['Hardware Security', 'PCB', 'IoT'],
-          details: 'Designed hardware blueprint of all sensors necessary and the custom PCB board for the watch. Successfully implemented a voltage regulator to ensure consistent output, decreasing malfunction risk by 20%. Spearheaded the integration of sensor arrays and LED systems.'
+          details: 'Designed hardware blueprint and security infrasturcture of all sensors necessary and the custom PCB board for the watch. Decreasing malfunction risk by 20%.'
         },
         {
           id: '8',
@@ -78,7 +78,7 @@ const Projects = () => {
           description: 'Comprehensive analysis of OTSM for next-generation communications.',
           image: 'https://images.unsplash.com/photo-1563089145-599997674d42?q=80&w=2070&auto=format&fit=crop',
           tags: ['Research', 'Communications', 'Modulation'],
-          details: 'Conducted an in-depth survey on Orthogonal Time Shift Modulation (OTSM) with comprehensive analysis of its theoretical foundations, performance evaluation, and practical implementation challenges. Demonstrated OTSM\'s robustness against synchronization errors.',
+          details: 'Conducted an in-depth survey on Orthogonal Time Shift Modulation (OTSM) with comprehensive analysis of its theoretical foundations, performance evaluation.',
           link: 'https://github.com/abheekmondal',
           showGithubLink: true
         }
