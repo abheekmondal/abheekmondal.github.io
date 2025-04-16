@@ -61,7 +61,7 @@ const Resume = () => {
           "Improved website speed and responsiveness by 30%",
           "Enhanced cross-platform functionality, boosting user experience by 15%"
         ]
-      }
+      },
       {
         title: "Lead Software Developer and Engineer",
         company: "WhatsRoute (Startup)",
