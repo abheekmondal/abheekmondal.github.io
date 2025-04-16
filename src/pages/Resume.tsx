@@ -131,12 +131,6 @@ const Resume = () => {
     ],
     projects: [
       {
-        name: "WhatsRoute",
-        role: "Lead Software Developer and Engineer",
-        year: "2024",
-        description: "Developed technical architecture for a restaurant ordering system integrated with WhatsApp Business API."
-      },
-      {
         name: "RND4IMPACT Inc.",
         role: "Data Analyst",
         year: "2024",
