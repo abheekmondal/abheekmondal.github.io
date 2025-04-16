@@ -14,48 +14,64 @@ const Resume = () => {
         title: "ISO 27001 Lead Implementer",
         company: "IPMC Ghana",
         period: "2024 - Present",
-        description: "Leading ISO 27001 implementation across multiple branches, conducting security assessments, and implementing cybersecurity protocols.",
+        description: "Leading ISO 27001 implementation across multiple branches and implementing cybersecurity protocols.",
         achievements: [
-          "Spearheaded ISO 27001 implementation across three branches",
-          "Created critical asset registries totaling over $800,000",
-          "Authored 12+ ISO compliant policies, improving efficiency by 23%",
-          "Developed detailed Cybersecurity Incident Response Plans"
+          "Spearheaded the implementation of ISO 27001 at IPMC Ghana across three of its branches, the head office, training centre and service centre",
+          "Conducted GAP analysis of each of the locations to determine the changes that need to be made.",
+          "Created critical asset registries for all three branches, totaling over 800,000 USD and assigned risks and contingency plans for severe risk assets.",
+          "Authored over 12 detailed ISO compliant policies for each of the branches, improving IPMC’s efficiency by 23%, including a detailed CSIRP on how to conduct Cybersecurity incidents, how to mitigate incidents and report to proper management."
         ]
       },
       {
         title: "WebApp Pentester",
         company: "IPMC Ghana",
         period: "2024 - Present",
-        description: "Conducted penetration testing on web applications using comprehensive tools and collaborated with development teams to implement security enhancements.",
+        description: "Conducted pen-testing on web applications using OWASP top 10 framework, among others.",
         achievements: [
-          "Developed detailed Pentesting manual using OWASP ZAP, SQL injection, and XSS",
+          "Developed a detailed Pentesting manual and used comprehensive tools such as OWASP ZAP, SQL injection, XSS, and other tools.",
+          "Collaborated with development teams to implement security fixes, enhancing security of the webapp before deployment.",
           "Identified 40+ vulnerabilities including 12+ critical issues",
-          "Created detailed vulnerability reports with risk assessment",
-          "Reduced overall risk exposure by 25%"
+          "Developed detailed vulnerability reports (technical and non-technical) with risk assessment and proper remediation steps to take to effectively communicate details to technical and non-technical managers.",
+          "Reduced overall risk exposure of app by 25%"
         ]
       },
       {
-        title: "Cybersecurity Solutions Architect",
+        title: "Cybersecurity Solutions Consultant",
         company: "IPMC Ghana",
         period: "2024 - Present",
-        description: "Developed strategic cybersecurity initiatives and conducted in-depth analyses of client infrastructure to identify security weaknesses.",
+        description: "Developed strategic cybersecurity initiatives and conducted gap analyses of client infrastructure to identify security weaknesses.",
         achievements: [
-          "Collaborated with CEO on strategic cybersecurity initiatives",
-          "Leveraged server logs to detect anomalous IPs, improving server performance by 10%",
-          "Authored ISO 27001-compliant incident reports",
-          "Enhanced cybersecurity protocols, reducing vulnerability by 30%"
+          "Collaborated directly with the CEO to develop strategic cybersecurity initiatives and spearhead targeted client engagement, driving business growth and strengthening market presence.",
+          "Leveraged advanced server log to detect for anomalous IPs and malicious activity and implemented real-time threat detection and preemptive IP blacklisting to fortify network defenses. Improved server performance by 10% and reduce resource utilization by 13%.",
+          "Authored several detailed, ISO 27001-compliant incident reports that accurately documented cyber threats, which ensured swift threat mitigation, maintained strict regulatory adherence, and minimized risk exposure.",
+          "Conduct in-depth analyses of clients' existing infrastructure and systems to identify potential security weaknesses, vulnerabilities, and compliance gaps.",
+          "Develop tailored, threat-mitigating solutions for vulnerable systems, incorporating best practices in security architecture, and emerging threat intelligence.",
+          "Improved client cybersecurity infrastructure, resulting in a 15% enhancement in system resilience against cyber threats.",
+          "Enhanced cybersecurity protocols by reducing vulnerability exposure by 30% by implementing comprehensive risk assessments"
         ]
       },
       {
         title: "Webmaster (Full-Stack Developer)",
         company: "ESports Trade Association",
         period: "2022",
-        description: "Managed ESTA's website, ensuring high uptime and improved operational efficiency through custom WordPress development.",
+        description: "Managed ESTA's website, ensuring high uptime and improved operational.",
         achievements: [
-          "Managed website with 90% uptime and 25% improvement in operational efficiency",
-          "Increased site traffic by 20% through 32 custom WordPress pages",
+          "Managed ESTA's website ensuring 90% uptime and a 25% improvement in operational efficiency.",
+          "Increased site traffic by 20% through the development of 32 custom WordPress pages.",
           "Improved website speed and responsiveness by 30%",
           "Enhanced cross-platform functionality, boosting user experience by 15%"
+        ]
+      }
+      {
+        title: "Lead Software Developer and Engineer",
+        company: "WhatsRoute (Startup)",
+        period: "2024",
+        description: "Worked with the founders and creators to develop their ideas in real time",
+        achievements: [
+          "Developed technical architecture design for a restaurant ordering system integrated with the WhatsApp Business API.",
+          "Orchestrated project timelines and deliverables using Agile methodologies and Scrum, led bi-weekly sprints.",
+          "Led a cross-functional team for the backend and system integration development.",
+          "Implemented a location-based service using Google Maps API."
         ]
       }
     ],
