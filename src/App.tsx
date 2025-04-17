@@ -12,10 +12,12 @@ import NotFound from "./pages/NotFound";
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 
+// Create query client outside of the function component
 const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
+    {/* Move TooltipProvider inside the function component */}
     <TooltipProvider>
       <Toaster />
       <Sonner />
