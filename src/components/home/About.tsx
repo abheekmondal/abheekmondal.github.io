@@ -54,7 +54,7 @@ const About = () => {
                 I am a passionate cybersecurity professional with over 5 years of experience in protecting digital assets and infrastructures from evolving cyber threats. My expertise spans across vulnerability assessment, penetration testing, and security architecture.
               </p>
               <p className="text-gray-300">
-                I leverage a combination of AI-Sugmented offensive and defensive security approaches to identify vulnerabilities before they can be exploited by malicious actors. My goal is to help businesses establish robust security postures that can withstand modern cyber threats.
+                I leverage a combination of AI-Augmented offensive and defensive security approaches to identify vulnerabilities before they can be exploited by malicious actors. My goal is to help businesses establish robust security postures that can withstand modern cyber threats.
               </p>
               
               <div className="flex items-center space-x-6 mt-6">
