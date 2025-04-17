@@ -1,10 +1,10 @@
-
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 import { Send, AlertCircle } from 'lucide-react';
 import { useToast } from "@/hooks/use-toast";
+import emailjs from '@emailjs/browser';
 
 const contactFormSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters" }),
@@ -18,6 +18,7 @@ type ContactFormValues = z.infer<typeof contactFormSchema>;
 const ContactForm: React.FC = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
+  const formRef = useRef<HTMLFormElement>(null);
   
   const { 
     register, 
@@ -32,11 +33,27 @@ const ContactForm: React.FC = () => {
     setIsSubmitting(true);
     
     try {
-      // In a real implementation, this would send the form data to a backend API
-      console.log('Form data submitted:', data);
+      // EmailJS service, template, and user ID values should be replaced with your actual values
+      const serviceId = "YOUR_SERVICE_ID"; // Replace with your EmailJS service ID
+      const templateId = "YOUR_TEMPLATE_ID"; // Replace with your EmailJS template ID 
+      const publicKey = "YOUR_PUBLIC_KEY"; // Replace with your EmailJS public key
       
-      // Simulate API delay
-      await new Promise(resolve => setTimeout(resolve, 1000));
+      console.log('Sending form data via EmailJS:', data);
+      
+      // Send email using EmailJS
+      const result = await emailjs.send(
+        serviceId,
+        templateId,
+        {
+          from_name: data.name,
+          from_email: data.email,
+          subject: data.subject,
+          message: data.message
+        },
+        publicKey
+      );
+      
+      console.log('EmailJS result:', result);
       
       toast({
         title: "Message sent successfully!",
@@ -47,6 +64,7 @@ const ContactForm: React.FC = () => {
       // Reset form
       reset();
     } catch (error) {
+      console.error('EmailJS error:', error);
       toast({
         title: "Failed to send message",
         description: "Please try again later or contact me directly via email.",
@@ -58,7 +76,7 @@ const ContactForm: React.FC = () => {
   };
   
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
+    <form ref={formRef} onSubmit={handleSubmit(onSubmit)} className="space-y-6">
       <div className="space-y-2">
         <label htmlFor="name" className="block text-sm font-medium text-gray-300">
           Name
