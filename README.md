@@ -5,7 +5,7 @@ A modern, responsive portfolio website for cybersecurity professionals built wit
 
 ## Live Demo
 
-Visit [https://cyber-folio-forge.netlify.app](https://cyber-folio-forge.netlify.app) to see the live demo.
+Visit [https://abheekmondal.github.io](abheekmondal.github.io) to see the live demo.
 
 ## Features
 
