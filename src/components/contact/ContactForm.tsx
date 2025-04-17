@@ -37,7 +37,7 @@ const ContactForm: React.FC = () => {
     try {
       // EmailJS credentials - these match what you provided
       const serviceId = "service_ueejpdr";
-      const templateId = "template_d4mzdwd";
+      const templateId = "template_df4b3ud";
       const publicKey = "Wbide-OIZ6rIDkQ41";
       
       console.log('Preparing to send form data via EmailJS:', data);
