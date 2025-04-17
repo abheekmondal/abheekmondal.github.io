@@ -34,9 +34,9 @@ const ContactForm: React.FC = () => {
     
     try {
       // EmailJS service, template, and user ID values should be replaced with your actual values
-      const serviceId = "YOUR_SERVICE_ID"; // Replace with your EmailJS service ID
-      const templateId = "YOUR_TEMPLATE_ID"; // Replace with your EmailJS template ID 
-      const publicKey = "YOUR_PUBLIC_KEY"; // Replace with your EmailJS public key
+      const serviceId = "service_ueejpdr"; // Replace with your EmailJS service ID
+      const templateId = "template_d4mzdwd"; // Replace with your EmailJS template ID 
+      const publicKey = "Wbide-OIZ6rIDkQ41"; // Replace with your EmailJS public key
       
       console.log('Sending form data via EmailJS:', data);
       
