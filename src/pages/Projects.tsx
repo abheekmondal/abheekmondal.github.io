@@ -228,25 +228,25 @@ const Projects = () => {
               {
                 name: "SQL (Advanced)",
                 issuer: "Hackerrank",
-                date: "2023",
+                date: "2024",
                 icon: "💾"
               },
               {
                 name: "GO",
                 issuer: "Hackerrank",
-                date: "2022",
+                date: "2024",
                 icon: "🚀"
               },
               {
                 name: "Python",
                 issuer: "Hackerrank",
-                date: "2022",
+                date: "2024",
                 icon: "🐍"
               },
               {
                 name: "Problem Solving (Intermediate)",
                 issuer: "Hackerrank",
-                date: "2023",
+                date: "2024",
                 icon: "🧩"
               }
             ].map((cert, index) => (
