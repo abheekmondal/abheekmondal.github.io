@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Home, FileText, Briefcase, Mail } from 'lucide-react';
+import { Menu, X, Home, FileText, Briefcase, Mail, Shield } from 'lucide-react';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,6 +27,7 @@ const Navbar = () => {
   
   const navLinks = [
     { path: '/', name: 'Home', icon: <Home size={18} /> },
+    { path: '/services', name: 'Services', icon: <Shield size={18} /> },
     { path: '/projects', name: 'Projects', icon: <Briefcase size={18} /> },
     { path: '/resume', name: 'Resume', icon: <FileText size={18} /> },
     { path: '/contact', name: 'Contact', icon: <Mail size={18} /> },
