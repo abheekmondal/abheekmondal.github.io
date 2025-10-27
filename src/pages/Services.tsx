@@ -43,23 +43,28 @@ const Services = () => {
 
   const clients = [
     {
-      name: 'TechCorp Solutions',
+      name: 'IPMC Ghana',
       description: 'Implemented comprehensive ISO 27001 ISMS framework, achieving certification within 6 months and establishing enterprise-grade security controls.',
       logo: '🏢'
     },
     {
-      name: 'Financial Services Inc',
+      name: 'DarFin (FinTech)',
+      description: 'Conducted an in-depth evaluation of their networks and their resources to implement a firewall and establish custom rules and controls.',
+      logo: '🏙️'
+    },
+    {
+      name: 'CallinClinic',
       description: 'Conducted extensive penetration testing across cloud infrastructure, identifying and remediating critical vulnerabilities before go-live.',
-      logo: '🏦'
+      logo: '🏨'
     },
     {
-      name: 'HealthTech Innovations',
-      description: 'Designed and deployed secure architecture for healthcare platform, ensuring HIPAA compliance and data protection standards.',
-      logo: '🏥'
+      name: 'Electricity Company of Ghana',
+      description: 'Managed and Implemented their SOC and Firewall for various data centers, ensuring uptime for critical infrastructures and remediating attacks instantly.',
+      logo: '🏙️'
     },
     {
-      name: 'E-Commerce Global',
-      description: 'Established 24/7 SOC operations, reducing incident response time by 80% and preventing multiple security breaches.',
+      name: 'Apex Bank of Ghana',
+      description: 'Conducted extensive research for their infrastructure and implemented security solutions for their infrastructure according to their RFQ Requirements.',
       logo: '🛒'
     }
   ];
