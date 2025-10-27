@@ -40,7 +40,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="text-white font-medium mb-1">Location</h3>
-                      <p className="text-gray-400">Greater Accra Region, Ghana</p>
+                      <p className="text-gray-400">India</p>
                     </div>
                   </div>
                   
@@ -61,8 +61,8 @@ const Contact = () => {
                       <Phone size={24} />
                     </div>
                     <div>
-                      <h3 className="text-white font-medium mb-1">Phone(Whatsapp Only)</h3>
-                      <p className="text-gray-400">(312) 709-9660</p>
+                      <h3 className="text-white font-medium mb-1">Phone</h3>
+                      <p className="text-gray-400">+91 92665 47587</p>
                     </div>
                   </div>
                   
