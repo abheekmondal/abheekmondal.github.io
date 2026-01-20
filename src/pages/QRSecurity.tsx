@@ -56,11 +56,25 @@ const QRSecurity = () => {
               Fortunately, this was a security awareness demonstration — not an attack.
             </p>
 
-            <div className="bg-gradient-to-r from-yellow-500/10 via-red-500/10 to-yellow-500/10 border border-yellow-500/20 rounded-xl p-6 mb-8">
+            <div className="bg-gradient-to-r from-yellow-500/10 via-red-500/10 to-yellow-500/10 border border-yellow-500/20 rounded-xl p-6 mb-10">
               <p className="text-lg text-yellow-200/90 font-medium">
                 In a real-world scenario, this scan could have led to compromised credentials, 
                 malware infection, or unauthorized access to your device.
               </p>
+            </div>
+
+            {/* Quick CTA */}
+            <div className="mb-4">
+              <h2 className="text-2xl md:text-3xl font-bold mb-4">
+                <span className="text-white">Strengthen Your Organization's </span>
+                <span className="text-cyber-green">Security Posture</span>
+              </h2>
+              <Link to="/contact">
+                <Button size="lg" className="bg-cyber-green hover:bg-cyber-green/90 text-cyber-dark font-semibold px-8 py-4 text-lg group">
+                  Get in Touch
+                  <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
