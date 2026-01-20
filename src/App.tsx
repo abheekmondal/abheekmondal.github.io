@@ -10,6 +10,7 @@ import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import QRSecurity from "./pages/QRSecurity";
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 
@@ -32,6 +33,7 @@ const App = () => (
               <Route path="/projects" element={<Projects />} />
               <Route path="/resume" element={<Resume />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/qr-security" element={<QRSecurity />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>

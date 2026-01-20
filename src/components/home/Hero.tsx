@@ -92,7 +92,7 @@ const Hero = () => {
               <div className="relative animate-float">
                 <iframe 
                   src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=4238600" 
-                  className="w-[350px] h-[400px] md:w-[400px] md:h-[450px] relative z-10"
+                  className="w-[450px] h-[500px] md:w-[550px] md:h-[600px] lg:w-[600px] lg:h-[650px] relative z-10"
                   style={{ border: 'none' }}
                   title="TryHackMe Profile Badge"
                 />
