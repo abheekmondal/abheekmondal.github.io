@@ -147,7 +147,7 @@ const QRSecurity = () => {
                 </p>
                 <div className="bg-background/50 rounded-lg p-4 flex justify-center">
                   <img 
-                    src={qrPreviewIOS} 
+                    src={qrPreviewAndroid} 
                     alt="iOS QR Code Preview Example" 
                     className="max-h-64 rounded-lg shadow-lg"
                   />
@@ -168,7 +168,7 @@ const QRSecurity = () => {
                 </p>
                 <div className="bg-background/50 rounded-lg p-4 flex justify-center">
                   <img 
-                    src={qrPreviewAndroid} 
+                    src={qrPreviewIOS} 
                     alt="Android QR Code Preview Example" 
                     className="max-h-64 rounded-lg shadow-lg"
                   />
