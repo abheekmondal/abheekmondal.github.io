@@ -88,12 +88,13 @@ const Hero = () => {
           
           <div className="md:col-span-2 flex justify-center">
             <div className={`transition-all duration-1000 delay-300 transform ${isVisible ? 'opacity-100' : 'opacity-0 translate-y-10'}`}>
-              {/* Hero image or animation */}
-              <div className="relative">
-                <img 
-                  src="/lovable-uploads/502c9024-7c9d-42b7-b33f-1a0ef9205501.png" 
-                  alt="Cybersecurity Professional" 
-                  className="max-w-full h-auto animate-float relative z-10"
+              {/* TryHackMe Dynamic Badge */}
+              <div className="relative animate-float">
+                <iframe 
+                  src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=4238600" 
+                  className="w-[350px] h-[400px] md:w-[400px] md:h-[450px] relative z-10"
+                  style={{ border: 'none' }}
+                  title="TryHackMe Profile Badge"
                 />
                 {/* Glow effect */}
                 <div className="absolute -inset-4 bg-cyber-green/5 rounded-full filter blur-xl animate-pulse-glow z-0"></div>
