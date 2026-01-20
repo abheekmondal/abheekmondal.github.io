@@ -53,8 +53,8 @@ const Hero = () => {
       <div className="absolute inset-0 bg-hero-glow z-0"></div>
       
       <div className="cyber-container relative z-10 pt-20">
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-8 items-center">
-          <div className="md:col-span-3 space-y-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+          <div className="space-y-6">
             <div className={`transition-all duration-1000 transform ${isVisible ? 'opacity-100' : 'opacity-0 translate-y-10'}`}>
               <h1 className="font-tech font-bold text-4xl sm:text-5xl md:text-6xl leading-tight">
                 <span className="text-white block">Abheek Mondal</span>
@@ -86,20 +86,29 @@ const Hero = () => {
             </div>
           </div>
           
-          <div className="md:col-span-2 flex justify-center">
-            <div className={`transition-all duration-1000 delay-300 transform ${isVisible ? 'opacity-100' : 'opacity-0 translate-y-10'}`}>
-              {/* TryHackMe Dynamic Badge */}
-              <div className="relative animate-float">
-                <iframe 
-                  src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=4238600" 
-                  className="w-[450px] h-[500px] md:w-[550px] md:h-[600px] lg:w-[600px] lg:h-[650px] relative z-10"
-                  style={{ border: 'none' }}
-                  title="TryHackMe Profile Badge"
-                />
-                {/* Glow effect */}
-                <div className="absolute -inset-4 bg-cyber-green/5 rounded-full filter blur-xl animate-pulse-glow z-0"></div>
-              </div>
+          {/* Profile Image */}
+          <div className={`flex justify-center transition-all duration-1000 delay-200 transform ${isVisible ? 'opacity-100' : 'opacity-0 translate-y-10'}`}>
+            <div className="relative">
+              <img 
+                src="/lovable-uploads/502c9024-7c9d-42b7-b33f-1a0ef9205501.png" 
+                alt="Abheek Mondal" 
+                className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 object-cover rounded-full border-4 border-cyber-green/30 shadow-2xl"
+              />
+              <div className="absolute -inset-4 bg-cyber-green/10 rounded-full filter blur-xl animate-pulse-glow -z-10"></div>
             </div>
+          </div>
+        </div>
+        
+        {/* TryHackMe Badge Section */}
+        <div className={`mt-12 flex justify-center transition-all duration-1000 delay-300 transform ${isVisible ? 'opacity-100' : 'opacity-0 translate-y-10'}`}>
+          <div className="relative animate-float">
+            <iframe 
+              src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=4238600" 
+              className="w-[450px] h-[500px] md:w-[550px] md:h-[600px] lg:w-[600px] lg:h-[650px] relative z-10"
+              style={{ border: 'none' }}
+              title="TryHackMe Profile Badge"
+            />
+            <div className="absolute -inset-4 bg-cyber-green/5 rounded-full filter blur-xl animate-pulse-glow z-0"></div>
           </div>
         </div>
         
